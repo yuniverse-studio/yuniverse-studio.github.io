@@ -19,9 +19,13 @@ body {
   color: #707070;
 }
 
+#title1 { color: #c3073f; }
 #title2 { color: #950740; }
 #title3 { color: #6F2232; }
-#title1 { color: #c3073f; }
+
+.c1 {
+  color: #c3073f;
+}
 
 header {
   margin-top: 40px;

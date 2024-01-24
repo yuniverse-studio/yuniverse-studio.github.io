@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Game Dev Studio</title>
+    <title>Yuniverse</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/rust.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/base16/tomorrow-night.min.css" integrity="sha512-RhpnNVOxLt8etr+FHZxS6rugyqr7XelU5OV9wt+Bem7Ua6HRGZOKP/bcuOqOhzEO9b7VrdjLxEz3Yc9FY6xR9g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
 </head>
 <body>
@@ -33,16 +37,17 @@
 	</nav>
 	
 	<!-- Page -->
-	<section id="games">
-		<h2>Games</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo urna ac aliquam varius.</p>
-		<h3>Contact Information</h3>
-		<p>Email: info@yourgamedevstudio.com</p>
-		<p>Follow us on <a href="#" target="_blank">Twitter</a> and <a href="#" target="_blank">Facebook</a>.</p>
-		<!-- Add your contact details and a contact form -->
+	<section id="software">
+		<h2>Software</h2>
+		<p>We are working on a new programming language for game development called <span class="c1">Stala:</span></p>
+		<pre><code class="language-rust">module main;
+
+func main() {
+   print("Hello World!");
+}</code></pre>
 	</section>
 
-
+	<script>hljs.highlightAll();</script>
 </div>
 
 </body>
