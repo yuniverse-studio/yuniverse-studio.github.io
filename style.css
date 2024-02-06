@@ -88,4 +88,12 @@ section {
 section {
   width: 80%;
 }
+
+}
+
+img.pixelart {
+  width: 100px;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
 }
